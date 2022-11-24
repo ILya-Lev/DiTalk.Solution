@@ -4,8 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        ConsoleKey exitKey = ConsoleKey.A;
-        //one loop body is an operation or scope
+        var exitKey = ConsoleKey.A;
         while (exitKey != ConsoleKey.D0 && exitKey != ConsoleKey.NumPad0)
         {
             var calculator = new PrimitiveCalculator();

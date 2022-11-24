@@ -27,7 +27,7 @@ internal class Program
         IMenu menu = new Menu();
         ICalculatingOperation[] operations = new ICalculatingOperation[]
         {
-            new Add(),
+            new LoggingAdd(new Add()),
             new Subtract(),
             new Multiply(),
             new Divide(),
